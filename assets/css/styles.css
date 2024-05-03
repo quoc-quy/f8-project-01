@@ -73,10 +73,12 @@ a {
     padding: 12px 0;
 }
 
-.header {
+.hero-wrap {
     height: calc(100vh - 90px);
     background: #e6f0ff;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .navbar {
@@ -116,22 +118,18 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    padding-top: 130px;
-}
-
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .info .sub-title {
+.hero-wrap .info .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.01em;
 }
 
-.hero .info .title {
+.hero-wrap .info .title {
     margin-top: 8px;
     color: #000336;
     font-size: 6.3rem;
@@ -139,7 +137,7 @@ a {
     line-height: 118.75%;
 }
 
-.hero .info .desc {
+.hero-wrap .info .desc {
     white-space: inherit;
     margin-top: 30px;
     color: #5a6473;
@@ -148,7 +146,7 @@ a {
     line-height: 1.78;
 }
 
-.hero .btn {
+.hero-wrap .btn {
     margin-top: 40px;
     min-width: 170px;
 }
