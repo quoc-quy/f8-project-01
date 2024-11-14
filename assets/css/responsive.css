@@ -1,0 +1,29 @@
+/* PC */
+@media screen and (min-width: 992px) {
+    .show-on-mobile {
+        display: none;
+    }
+}
+
+/* Tablet and Mobile */
+@media screen and (max-width: 991.98px) {
+    .logo {
+        display: none;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .icon-menu {
+        width: 20px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+}
